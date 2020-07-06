@@ -1,7 +1,14 @@
+const coin1 = new Coin(1)
+const coin2 = new Coin(0)
+const coin3 = new Coin(1)
+const coin4 = new Coin(0)
+console.log({ coin1, coin2, coin3, coin4})
+
 const coinWithoutClass = {
 
     state: 0,
-
+  
+    
     flip: function () {
         console.log("coin.flip() has been invoked.")
     },
@@ -23,3 +30,8 @@ const coinWithoutClass = {
 console.group("coinWithoutClass")
 console.log(coinWithoutClass)
 console.groupEnd()
+
+coin1.flip()
+coin2.toString(
+coin3.toHTML()
+)
